@@ -11,5 +11,5 @@ services:
       - key: STRING_SESSION
         sync: false
     buildCommand: pip install -r requirements.txt
-    startCommand: python3 e2_modified.py
+    startCommand: python3 e2_modified_loader.py
     autoDeploy: true
